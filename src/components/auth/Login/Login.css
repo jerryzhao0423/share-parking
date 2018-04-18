@@ -1,0 +1,84 @@
+.login-container{
+    width: 600px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-input{
+    outline: 0;
+    display: inline-block;
+    width: 400px;
+    height: 44px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding: 0 0 0 15px;
+    border: 1px solid #c8cccf;
+    border-radius: 3px;
+}
+
+.login-input::-webkit-input-placeholder{
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+.login-input:focus{
+    border: 1px solid #EE9A00;
+}
+
+.login-button{
+    width: 400px;
+    height: 44px;
+    background-color: #EE9A00;
+    text-align: center;
+    margin: 10px 0 30px 0;
+    font-size: 20px;
+    color: #FFFFF0;
+    letter-spacing: 2px;
+    border-radius: 3px;
+}
+
+.login-modal{
+    display: inline-block;
+    background-color: #FFFFFF;
+    outline: 0;
+    padding-top: 30px;
+}
+
+.login-overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 5000;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.login-modal .closeButton{
+    color: #C9C9C9;
+    float: left;
+    margin-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.show-password{
+    cursor: pointer;
+    width:200px;
+    margin: 0 0 10px 350px;
+    padding-bottom: 1px;
+    color: #EE9A00;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: underline;
+}

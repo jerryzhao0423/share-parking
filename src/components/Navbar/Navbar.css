@@ -1,0 +1,90 @@
+.nav{
+    position: fixed;
+    z-index: 4500;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 80px;
+    text-align: right;
+    background-color: #FFFFF0;
+    color: #EE9A00;
+    box-shadow: rgba(57, 70, 78, 0.2) 0 4px 1px -2px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav-logo{
+    position: absolute;
+    display: flex;
+    margin-left:9%;
+    margin-top: 12px;
+    font-family: "Hanzipen SC";
+    font-size: 40px;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    margin-top: 0;
+    height: 80px;
+}
+
+.nav-item{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    margin: 35px 18px 15px 0;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #EE9A00;
+}
+
+.nav-sign-container{
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    display: inline-block;
+    border: 1px solid #EE9A00;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+.nav-log{
+    display: inline;
+    border-right: 1px solid #EE9A00;
+    padding: 8px;
+}
+
+.nav-log:hover{
+    background-color: #EE9A00;
+    color: #FFFFF0;
+}
+
+.nav-sign{
+    display: inline;
+    padding: 8px;
+}
+
+.nav-sign:hover{
+    background-color: #EE9A00;
+    color: #FFFFF0;
+}
+
+.switch-modal{
+    font-family: Helvetica, Arial, sans-serif;;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin: 10px 30px;
+    padding: 20px 0;
+    border-top: 1px solid #C9C9C9;
+}
+
+.switch-modal .switch-button{
+    cursor: pointer;
+    color: #EE9A00;
+}
