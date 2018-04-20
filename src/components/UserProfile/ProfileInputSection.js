@@ -5,7 +5,7 @@ class ProfileInputSection extends React.Component{
         return(
             <div>
                 <div className='profile-section-container'>
-                    <div className='profile-title'>Profile</div>
+                    <div className='profile-title'>Personal Profile</div>
                     <div className='row profile-input'>
                         <div className='col-xs-3 label'>First Name:</div>
                         <div className='col-xs-8'>
@@ -19,25 +19,27 @@ class ProfileInputSection extends React.Component{
                         </div>
                     </div>
                     <div className='row profile-input'>
-                        <div className='col-xs-3 label'>Email:</div>
+                        <div className='col-xs-3 label'><i className="fa fa-lock"/>&nbsp;Email:</div>
                         <div className='col-xs-8'>
                             <input defaultValue='' className='input'/>
                         </div>
                     </div>
                     <div className='row profile-input'>
-                        <div className='col-xs-3 label'>Phone Number:</div>
+                        <div className='col-xs-3 label'>
+                            <i className="fa fa-lock"/>&nbsp;Phone Number:
+                        </div>
                         <div className='col-xs-8'>
                             <input defaultValue='' className='input'/>
                         </div>
                     </div>
                     <div className='row profile-input'>
-                        <div className='col-xs-3 label'>Address Line1:</div>
+                        <div className='col-xs-3 label'><i className="fa fa-lock"/>&nbsp;Address Line1:</div>
                         <div className='col-xs-8'>
                             <input defaultValue='' className='input'/>
                         </div>
                     </div>
                     <div className='row profile-input'>
-                        <div className='col-xs-3 label'>Address Line2:</div>
+                        <div className='col-xs-3 label'><i className="fa fa-lock"/>&nbsp;Address Line2:</div>
                         <div className='col-xs-8'>
                             <input defaultValue='' className='input'/>
                         </div>

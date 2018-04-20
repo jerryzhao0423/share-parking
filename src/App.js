@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from "./components/Navbar/Navbar";
-import SignUp from "./components/auth/Signup/Signup";
 import UserProfile from "./components/UserProfile/UserProfile";
+import MapView from "./components/SpotList/MapView";
+import SpotDetail from "./components/SpotDetail/SpotDetail";
 
 
 class App extends React.Component{

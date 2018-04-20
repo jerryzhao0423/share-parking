@@ -37,8 +37,8 @@ class Navbar extends React.Component{
                 <nav className="nav">
                     <div className="nav-logo">ShareParking</div>
                     <ul className="nav-list">
-                        <li className="nav-item">Location</li>
-                        <li className='nav-item'>Search</li>
+                        <li className="nav-item">Rent a parking</li>
+                        <li className='nav-item'>Become a host</li>
                         <li className="nav-item">Help</li>
                     </ul>
                     <div className="nav-sign-container">

@@ -25,7 +25,7 @@
 }
 
 .profile-choice{
-    font-size: 20px;
+    font-size: 19px;
     padding: 10px;
 }
 
@@ -72,7 +72,7 @@
 
 .profile-save{
     cursor: pointer;
-    padding: 11px 27px;
+    padding: 10px 27px;
     background-color: #EE9A00;
     text-align: center;
     margin: 15px 0;
