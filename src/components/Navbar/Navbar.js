@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './Navbar.css'
 import Modal from 'react-modal'
 import SignUp from "../auth/Signup/Signup";
@@ -35,10 +36,15 @@ class Navbar extends React.Component{
         return(
             <div>
                 <nav className="nav">
-                    <div className="nav-logo">ShareParking</div>
+                    <div className="nav-logo">
+                        <Link className='nav-link' to='/'>ShareParking</Link>
+                    </div>
                     <ul className="nav-list">
                         <li className="nav-item">Rent a parking</li>
-                        <li className='nav-item'>Become a host</li>
+                        <li className='nav-item'>
+                            <Link className='nav-link'
+                                  to="/become-host/">Become a host</Link>
+                        </li>
                         <li className="nav-item">Help</li>
                     </ul>
                     <div className="nav-sign-container">

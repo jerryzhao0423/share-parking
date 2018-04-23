@@ -41,6 +41,26 @@
     border-bottom: 2px solid #EE9A00;
 }
 
+.nav-link {
+    color:inherit;
+    outline: none;
+}
+
+.nav-link:hover{
+    color: inherit;
+    outline: none;
+}
+.nav-link:focus{
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+}
+
+.nav-item .nav-link:focus{
+    padding-bottom: 4px;
+    border-bottom: 2px solid #EE9A00;;
+}
+
 .nav-sign-container{
     position: absolute;
     right: 60px;

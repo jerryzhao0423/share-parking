@@ -1,21 +1,32 @@
 import React from 'react'
 import './UserProfile.css'
-import ProfileInputSection from "./ProfileInputSection";
+import PersonalProfileSection from "./ProfileInputSection";
+import CarProfileSection from "./CarProfileSection";
 
 class UserProfile extends React.Component{
+    constructor(props){
+        super(props);
+        this.state={
+            rightSection:'Personal'
+        }
+    }
+
     renderRightSection(){
-        return(
-            <div>
-                <ProfileInputSection/>
-            </div>
-        )
+        switch (this.state.rightSection){
+            case 'Personal':
+                return <PersonalProfileSection/>
+            break;
+            case  'Car':
+                return <CarProfileSection/>
+            break;
+        }
     }
 
     renderLeftSection(){
         return(
             <div className='left-section-container'>
-                <div className="profile-choice">Personal Profile</div>
-                <div className='profile-choice'>Car Profile</div>
+                <div className="profile-choice" onClick={()=>{this.setState({rightSection: "Personal"})}}>Personal Profile</div>
+                <div className='profile-choice' onClick={()=>{this.setState({rightSection: "Car"})}}>Car Profile</div>
                 <div className="profile-choice">Reservations</div>
                 <div className="profile-choice">Reviews</div>
             </div>

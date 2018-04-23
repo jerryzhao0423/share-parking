@@ -1,6 +1,6 @@
 import React from 'react'
 
-class ProfileInputSection extends React.Component{
+class PersonalProfileSection extends React.Component{
     render(){
         return(
             <div>
@@ -78,4 +78,4 @@ class ProfileInputSection extends React.Component{
     }
 }
 
-export default ProfileInputSection
+export default PersonalProfileSection

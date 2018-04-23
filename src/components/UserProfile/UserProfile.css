@@ -28,6 +28,9 @@
     font-size: 19px;
     padding: 10px;
 }
+.profile-choice:hover{
+    cursor: pointer;
+}
 
 .profile-input{
     margin: 35px 0;
