@@ -14,6 +14,7 @@ import SpotDetail from "./components/SpotDetail/SpotDetail";
 import UserProfile from "./components/UserProfile/UserProfile";
 import HostSetUp from "./components/HostSetUp/HostSetUp";
 import Homepage from "./components/Homepage/Homepage";
+import SpotListPage from "./components/SpotList/SpotListPage";
 
 const history = createHistory();
 const router=routerMiddleware(history);
@@ -29,6 +30,7 @@ ReactDOM.render(
                 <Route path="/" component={App}/>
                 <Switch>
                     <Route exact path='/' component={Homepage}/>
+                    <Route path='/list/' component={SpotListPage}/>
                     <Route path='/self/' component={UserProfile}/>
                     <Route path='/detail/' component={SpotDetail}/>
                     <Route path='/become-host/' component={HostSetUp}/>

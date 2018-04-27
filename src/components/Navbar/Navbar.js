@@ -33,14 +33,17 @@ class Navbar extends React.Component{
         this.setState({logInModalOpen:false, signUpModalOpen:true})
     }
     render(){
+        const logo=require('../../static/logotext.png');
         return(
             <div>
                 <nav className="nav">
-                    <div className="nav-logo">
-                        <Link className='nav-link' to='/'>ShareParking</Link>
-                    </div>
+                    <Link className='nav-link' to='/'>
+                        <div className="nav-logo" style={{backgroundImage:`url(${logo})`,backgroundSize: 'cover'}}/>
+                    </Link>
                     <ul className="nav-list">
-                        <li className="nav-item">Rent a parking</li>
+                        <li className="nav-item">
+                            <Link className='nav-link'
+                                  to="/list/">Rent a parking</Link></li>
                         <li className='nav-item'>
                             <Link className='nav-link'
                                   to="/become-host/">Become a host</Link>

@@ -16,9 +16,9 @@
     position: absolute;
     display: flex;
     margin-left:9%;
-    margin-top: 12px;
-    font-family: "Hanzipen SC";
-    font-size: 40px;
+    margin-top: 9px;
+    width: 240px;
+    height: 65px;
 }
 
 .nav-list{
