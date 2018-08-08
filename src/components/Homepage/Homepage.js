@@ -1,4 +1,5 @@
 import React from 'react'
+import SearchBar from "./SearchBar";
 
 class Homepage extends React.Component{
     _renderSearchBar=()=>{
@@ -15,6 +16,8 @@ class Homepage extends React.Component{
         return(
             <div style={{height:'100vh', backgroundImage:`url(${background})`,backgroundSize: 'cover'}}>
                 {this._renderSearchBar()}
+                <SearchBar/>
+                <SearchBar/>
             </div>
         )
     }
